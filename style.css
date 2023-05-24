@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+body{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textitem{
+    background-image: url(images/bg-pattern-desktop.svg); 
+    background-size: cover;
+    padding: 20px;
+    width: 55%;
+}
+
+.logo{
+    width: 130px;
+}
+
+.card-header{
+    margin-top: 80px;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: hsl(0, 36%, 70%);
+}
+
+.card-coming{
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 10px;
+
+}
+
+.card-text{
+    color: hsl(0, 36%, 70%);
+    margin-top: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content{
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.container{
+    width: 900px;
+    height: 550px;
+    display: flex;
+    margin: 100px auto;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.268);
+}
+
+.imagesitem{
+   width: 45%;
+   background-color: blue;
+   background-image: url(images/hero-desktop.jpg);
+   background-size: cover;
+}
+
+.inputbox {
+    margin-top: 10px;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 30px;
+    outline: none;
+    padding: 10px 40px;
+    place-items: hsl(0, 36%, 70%);
+    padding-left: 20px; /* Sola kaydırma için padding sol değerini artırabilirsiniz */
+   
+  }
+
+.inputbox::placeholder {
+    color: hsl(0, 36%, 70%); 
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: -40px;
+}
+
+button{
+    border-radius: 40px;
+    padding: 11px 30px;
+    border: none;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    color: #fff;
+    margin-left: -35px;
+}
+
+button:active{
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.268);
+    transition: .2s ease;
+}
+
